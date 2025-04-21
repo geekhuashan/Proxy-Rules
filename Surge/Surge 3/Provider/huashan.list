@@ -1,0 +1,11 @@
+# huashan 规则集 📜
+# 创建时间: 2025-04-21
+
+# 自定义域名单元（匹配所有子域）
+DOMAIN-SUFFIX,csun.edu
+DOMAIN-SUFFIX,ucla.edu
+DOMAIN-SUFFIX,cornell.edu
+DOMAIN-SUFFIX,yale.edu
+DOMAIN-SUFFIX,columbia.edu
+DOMAIN-SUFFIX,albany.edu
+DOMAIN-SUFFIX,usc.edu
