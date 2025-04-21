@@ -13,7 +13,9 @@
                 "talkatone.com",
                 "paypal.com",
                 "paypalobjects.com",
-                "ipinfo.io"
+                "stripe.com",
+                "sentry.io",
+                "hcaptcha.com"
             ]
         }
     ]
