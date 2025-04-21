@@ -2,6 +2,7 @@
 # 创建时间: 2025-04-21
 
 # 自定义域名单元（匹配所有子域）
+# 大学
 DOMAIN-SUFFIX,csun.edu
 DOMAIN-SUFFIX,ucla.edu
 DOMAIN-SUFFIX,cornell.edu
@@ -9,6 +10,11 @@ DOMAIN-SUFFIX,yale.edu
 DOMAIN-SUFFIX,columbia.edu
 DOMAIN-SUFFIX,albany.edu
 DOMAIN-SUFFIX,usc.edu
+
+# 支付
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
+
+# surge 抓包
+DOMAIN-SUFFIX,sentry.io
