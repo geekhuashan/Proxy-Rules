@@ -15,6 +15,8 @@ DOMAIN-SUFFIX,usc.edu
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,stripe.com
 
 # surge 抓包
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,hcaptcha.com
