@@ -20,3 +20,7 @@ DOMAIN-SUFFIX,stripe.com
 # surge 抓包
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,hcaptcha.com
+
+# Claude related
+DOMAIN-SUFFIX,intercom.com
+
