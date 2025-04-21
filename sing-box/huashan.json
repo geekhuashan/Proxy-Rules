@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "csun.edu",
+                "ucla.edu",
+                "cornell.edu",
+                "yale.edu",
+                "columbia.edu",
+                "albany.edu",
+                "usc.edu",
+                "talkatone.com",
+                "paypal.com",
+                "paypalobjects.com",
+                "ipinfo.io"
+            ]
+        }
+    ]
+}
