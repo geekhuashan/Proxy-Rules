@@ -13,6 +13,12 @@ DOMAIN-SUFFIX,google.com.tw
 DOMAIN-SUFFIX,google.de
 DOMAIN-SUFFIX,google.fr
 DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,google.com.au
+DOMAIN-SUFFIX,google.com.br
+DOMAIN-SUFFIX,google.com.mx
+DOMAIN-SUFFIX,google.com.tr
+DOMAIN-SUFFIX,google.com.vn
+
 
 # Google 搜索功能使用的域名
 DOMAIN-SUFFIX,gstatic.com
@@ -23,10 +29,6 @@ DOMAIN-SUFFIX,ggpht.com
 # Google 搜索重定向与短链接
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,g.co
-
-
-# 更精确的谷歌域名匹配 (不会匹配 9to5google.com)
-DOMAIN-REGEX,^(.*\.)?google\.(com|co|de|fr|ca)(\.[a-z]{2})?$
 
 
 # 搜索结果页面缓存
