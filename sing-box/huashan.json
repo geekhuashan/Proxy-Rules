@@ -15,7 +15,14 @@
                 "paypalobjects.com",
                 "stripe.com",
                 "sentry.io",
-                "hcaptcha.com"
+                "hcaptcha.com",
+                "intercom.com",
+                "intercom.io",
+                "widget.intercom.com",
+                "api.intercom.com",
+                "app.intercom.com",
+                "intercomcdn.com",
+                "intercomassets.com"
             ]
         }
     ]
