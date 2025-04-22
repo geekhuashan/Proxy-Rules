@@ -24,8 +24,10 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,g.co
 
-# Google 通用服务域名
-DOMAIN-KEYWORD,google
+
+# 更精确的谷歌域名匹配 (不会匹配 9to5google.com)
+DOMAIN-REGEX,^(.*\.)?google\.(com|co|de|fr|ca)(\.[a-z]{2})?$
+
 
 # 搜索结果页面缓存
 DOMAIN-SUFFIX,webcache.googleusercontent.com
