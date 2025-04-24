@@ -16,6 +16,10 @@ DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,stripe.network
+USER-AGENT,PayPal*
+DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
 
 # surge 抓包
 DOMAIN-SUFFIX,sentry.io
