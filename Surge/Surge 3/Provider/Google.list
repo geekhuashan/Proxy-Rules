@@ -20,6 +20,9 @@ DOMAIN-SUFFIX,google.com.tr
 DOMAIN-SUFFIX,google.com.vn
 
 
+# Google 通用服务域名
+DOMAIN-KEYWORD,google
+
 # Google 搜索功能使用的域名
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
