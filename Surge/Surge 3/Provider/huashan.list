@@ -22,9 +22,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,talkatone.com
-DOMAIN-SUFFIX,tktn.be
-DOMAIN-SUFFIX,inner-active.mobi
+
 
 
 # Claude related
