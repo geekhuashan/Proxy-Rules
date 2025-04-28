@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,yale.edu
 DOMAIN-SUFFIX,columbia.edu
 DOMAIN-SUFFIX,albany.edu
 DOMAIN-SUFFIX,usc.edu
+DOMAIN-SUFFIX,bootstrapcdn.com
+DOMAIN-SUFFIX,wurfl.io
+DOMAIN-SUFFIX,polyfill.io
 
 # 支付
 DOMAIN-SUFFIX,stripe.com
