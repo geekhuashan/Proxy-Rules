@@ -1,0 +1,12 @@
+# TMDB 相关
+DOMAIN-SUFFIX,themoviedb.org,Proxy
+DOMAIN-SUFFIX,tmdb.org,Proxy
+DOMAIN-SUFFIX,thetvdb.com,Proxy
+DOMAIN-SUFFIX,fanart.tv,Proxy
+
+# MetaTube 相关
+DOMAIN-SUFFIX,koyeb.app,Proxy
+DOMAIN-SUFFIX,javbus.com,Proxy
+DOMAIN-SUFFIX,javlibrary.com,Proxy
+DOMAIN-SUFFIX,dmm.co.jp,Proxy
+DOMAIN-SUFFIX,mgstage.com,Proxy
