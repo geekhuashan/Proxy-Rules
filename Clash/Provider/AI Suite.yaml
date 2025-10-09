@@ -1,4 +1,8 @@
 payload:
+  # > Augment
+  - DOMAIN-SUFFIX,augment.com
+  - DOMAIN-SUFFIX,augmentcode.com
+
   # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chatgpt.com
@@ -24,8 +28,20 @@ payload:
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
 
+  # > DIA
+  - DOMAIN-SUFFIX,diabrowser.engineering
+
+  # > Windsurf
+  - DOMAIN-SUFFIX,windsurf.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
+
+  # > Chorus
+  - DOMAIN-SUFFIX,chorus.sh
+
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN,copilot.microsoft.com
 
   # > Cursor
@@ -38,9 +54,11 @@ payload:
   - DOMAIN,api.github.com
 
   # > Google Gemini
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
@@ -63,6 +81,10 @@ payload:
   # > Google NotebookLM
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
+
+  # > Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
 
   # > Groq
   - DOMAIN-SUFFIX,groq.com
@@ -90,7 +112,11 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
 
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > Zed
+  - DOMAIN-SUFFIX,zed.dev
