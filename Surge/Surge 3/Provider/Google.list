@@ -48,3 +48,4 @@ DOMAIN-SUFFIX,encrypted-tbn3.gstatic.com
 # 其他可能的Google服务域名
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,gcp.gvt2.com
