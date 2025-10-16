@@ -3,8 +3,7 @@
 
 # 自定义域名单元（匹配所有子域）
 DOMAIN-SUFFIX,9to5google.com
-DOMAIN-SUFFIX,geekhuashan.com
-DOMAIN,emby.geekhuashan.com
+
 
 # 自定义IP地址
 IP-CIDR,47.79.93.58/32,no-resolve
