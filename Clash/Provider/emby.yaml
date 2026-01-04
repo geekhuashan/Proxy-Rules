@@ -1,0 +1,16 @@
+# Emby / TMDB / MetaTube 规则集
+# Clash YAML 格式
+
+payload:
+  # TMDB 相关
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,fanart.tv
+
+  # MetaTube 相关
+  - DOMAIN-SUFFIX,koyeb.app
+  - DOMAIN-SUFFIX,javbus.com
+  - DOMAIN-SUFFIX,javlibrary.com
+  - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,mgstage.com

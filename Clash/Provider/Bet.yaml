@@ -1,0 +1,18 @@
+# 赌博网站规则集
+# Clash YAML 格式
+
+payload:
+  - DOMAIN-SUFFIX,bet365.com
+  - DOMAIN-SUFFIX,bet365.es
+  - DOMAIN-SUFFIX,bet365.it
+  - DOMAIN-SUFFIX,bet365.gr
+  - DOMAIN-SUFFIX,bet365.mx
+  - DOMAIN-SUFFIX,bet365.dk
+  - DOMAIN-SUFFIX,bet365.nl
+  - DOMAIN-SUFFIX,365sport365.com
+  - DOMAIN-SUFFIX,sport365-stream.com
+  - DOMAIN-SUFFIX,365sb.com
+  - DOMAIN-SUFFIX,365sb.dk
+  - DOMAIN-SUFFIX,365sb.nl
+  - DOMAIN-SUFFIX,365sb.gr
+  - DOMAIN-SUFFIX,365sb.mx

@@ -1,0 +1,7 @@
+# pre-huashan 规则集 📜
+# 创建时间: 2025-04-25,放行一些被误杀的网址
+# Clash YAML 格式
+
+payload:
+  - DOMAIN-SUFFIX,9to5google.com
+  - IP-CIDR,47.79.93.58/32,no-resolve

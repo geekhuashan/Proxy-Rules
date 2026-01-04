@@ -1,0 +1,76 @@
+# huashan 规则集 📜
+# 创建时间: 2025-04-21
+# Clash YAML 格式
+
+payload:
+  # 大学
+  - DOMAIN-SUFFIX,csun.edu
+  - DOMAIN-SUFFIX,ucla.edu
+  - DOMAIN-SUFFIX,cornell.edu
+  - DOMAIN-SUFFIX,yale.edu
+  - DOMAIN-SUFFIX,columbia.edu
+  - DOMAIN-SUFFIX,albany.edu
+  - DOMAIN-SUFFIX,usc.edu
+  - DOMAIN-SUFFIX,mit.edu
+  - DOMAIN-SUFFIX,csueastbay.edu
+
+  # 支付
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,stripe.network
+
+  # surge 抓包
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,bootstrapcdn.com
+  - DOMAIN-SUFFIX,wurfl.io
+  - DOMAIN-SUFFIX,polyfill.io
+
+  # Claude related
+  - DOMAIN-SUFFIX,intercom.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN,widget.intercom.com
+  - DOMAIN,api.intercom.com
+  - DOMAIN,app.intercom.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercomassets.com
+
+  # Meta / Ray-Ban 眼镜与生态
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN,graph.facebook.com
+  - DOMAIN,graph-video.facebook.com
+  - DOMAIN,connect.facebook.net
+  - DOMAIN,lookaside.facebook.com
+  - DOMAIN,edge-mqtt.facebook.com
+  - DOMAIN,mqtt.c10r.facebook.com
+  - DOMAIN,star.c10r.facebook.com
+  - DOMAIN,m.me
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN,scontent.cdninstagram.com
+  - DOMAIN,graph.instagram.com
+  - DOMAIN,i.instagram.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN,mmg.whatsapp.net
+  - DOMAIN,static.whatsapp.net
+  - DOMAIN,g.whatsapp.net
+  - DOMAIN,g-fallback.whatsapp.net
+  - DOMAIN,e1.whatsapp.net
+  - DOMAIN,graph.whatsapp.net
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,ray-ban.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,ntp.org
