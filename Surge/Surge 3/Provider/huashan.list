@@ -79,3 +79,8 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,ntp.org
+
+# Added 2026-02-11
+DOMAIN-SUFFIX,open-vsx.org
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN,www.googleapis.com
