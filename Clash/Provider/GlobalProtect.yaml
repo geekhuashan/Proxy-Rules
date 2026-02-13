@@ -1,0 +1,42 @@
+# GlobalProtect / Prisma Access 规则集
+# 基于 Palo Alto 官方文档整理（Portal/Gateway、Prisma Access、客户端升级与更新相关域名）
+# 更新时间: 2026-02-13
+# 说明：
+# 1) 你公司自定义 Portal/Gateway 域名（例如 vpn.company.com）需要额外加到此文件
+# 2) 若使用第三方 IdP（Okta / Azure AD / Google Workspace 等），请按实际再补充对应域名
+
+payload:
+  # GlobalProtect / Prisma Access 核心域名
+  - DOMAIN-SUFFIX,gpcloudservice.com
+  - DOMAIN,basf.gpcloudservice.com
+  - DOMAIN-SUFFIX,prismaaccess.com
+  - DOMAIN,api.gpcloudservice.com
+  - DOMAIN,api.prod.datapath.prismaaccess.com
+  - DOMAIN,api.prod6.datapath.prismaaccess.com
+  - DOMAIN,prod.datapath.prismaaccess.com
+  - DOMAIN,prod6.datapath.prismaaccess.com
+
+  # Prisma Access / Panorama 对接 API
+  - DOMAIN,api.paloaltonetworks.com
+  - DOMAIN,apitrusted.paloaltonetworks.com
+
+  # GlobalProtect 客户端升级
+  - DOMAIN,pan-gp-client.s3.dualstack.us-west-2.amazonaws.com
+
+  # Palo Alto 更新/下载基础设施
+  - DOMAIN,updates.paloaltonetworks.com
+  - DOMAIN,updates.paloaltonetworks.cn
+  - DOMAIN,staticupdates.paloaltonetworks.com
+  - DOMAIN,downloads.paloaltonetworks.com
+  - DOMAIN,prod-it-downloads.paloaltonetworks.com
+  - DOMAIN,proditpdownloads.paloaltonetworks.com
+  - DOMAIN,static.paloaltonetworks.com
+  - DOMAIN,dl.paloaltonetworks.com
+
+  # 账号与管理门户（部分部署场景会用到）
+  - DOMAIN,apps.paloaltonetworks.com
+  - DOMAIN,support.paloaltonetworks.com
+
+  # 可选：SAML/IdP（按需取消注释）
+  # - DOMAIN-SUFFIX,okta.com
+  # - DOMAIN-SUFFIX,oktacdn.com
