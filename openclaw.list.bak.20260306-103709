@@ -1,0 +1,9 @@
+# OpenClaw Proxy Rules
+# Process-level fallback only. Discord domains/IPs moved to discord.list.
+# UPDATED: 2026-03-06
+
+# ===== Process Fallback =====
+# Keep a process fallback for dynamic voice/media destinations that may not be covered
+# by static domain/IP rules. Discord-specific host/IP rules now live in discord.list.
+PROCESS-NAME,node
+PROCESS-NAME,openclaw-gateway
