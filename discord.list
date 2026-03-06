@@ -38,9 +38,12 @@ DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
 DOMAIN-SUFFIX,watchanimeattheoffice.com
 DOMAIN-KEYWORD,discord
 
-# Discord IP-CIDR
-IP-CIDR,104.29.138.0/24,no-resolve
-IP-CIDR,104.29.141.0/24,no-resolve
+# Discord media edges observed in live voice logs. Keep these broader than a
+# single /24 because Discord rotates voice/media IPs across adjacent 104.29.*
+# subnets during reconnects.
+IP-CIDR,104.29.136.0/21,no-resolve
+IP-CIDR,104.29.144.0/21,no-resolve
+IP-CIDR,104.29.152.0/21,no-resolve
 
 # Discord Voice Server IP ranges
 IP-CIDR,66.22.196.0/22,no-resolve
