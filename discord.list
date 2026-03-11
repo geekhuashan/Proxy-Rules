@@ -1,10 +1,10 @@
 # Discord Proxy Rules
 # Extracted from openclaw.list so Discord can use a dedicated Surge policy group.
-# UPDATED: 2026-03-06
+# UPDATED: 2026-03-11
 
 # ===== Discord =====
 # Source: https://github.com/blackmatrix7/ios_rule_script
-# Local additions: Discord voice server ranges used by OpenClaw voice.
+# Local additions: Discord voice server IP ranges + ASN for full UDP coverage.
 
 # Discord Domains
 DOMAIN-SUFFIX,airhorn.solutions
@@ -38,14 +38,16 @@ DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
 DOMAIN-SUFFIX,watchanimeattheoffice.com
 DOMAIN-KEYWORD,discord
 
-# Discord media edges observed in live voice logs. Keep these broader than a
-# single /24 because Discord rotates voice/media IPs across adjacent 104.29.*
-# subnets during reconnects.
+# ===== Discord IP Coverage =====
+# Discord 自有 AS（ASN 393299）— 覆盖所有 Discord 官方 IP，包括语音/媒体服务器 UDP
+IP-ASN,393299,no-resolve
+
+# Discord media edges (Cloudflare 代播，voice 实测出现的 104.29.* 子网)
 IP-CIDR,104.29.136.0/21,no-resolve
 IP-CIDR,104.29.144.0/21,no-resolve
 IP-CIDR,104.29.152.0/21,no-resolve
 
-# Discord Voice Server IP ranges
+# Discord Voice Server IP ranges (66.22.*)
 IP-CIDR,66.22.196.0/22,no-resolve
 IP-CIDR,66.22.200.0/21,no-resolve
 IP-CIDR,66.22.208.0/20,no-resolve
