@@ -1,0 +1,6 @@
+# pre-huashan 规则集
+# 放行一些被误杀的网址
+# Clash YAML 格式
+
+payload:
+  - DOMAIN-SUFFIX,9to5google.com

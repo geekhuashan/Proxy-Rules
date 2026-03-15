@@ -1,0 +1,52 @@
+# huashan 规则集
+# Clash YAML 格式
+
+payload:
+  # 大学
+  - DOMAIN-SUFFIX,csun.edu
+  - DOMAIN-SUFFIX,ucla.edu
+  - DOMAIN-SUFFIX,cornell.edu
+  - DOMAIN-SUFFIX,yale.edu
+  - DOMAIN-SUFFIX,columbia.edu
+  - DOMAIN-SUFFIX,albany.edu
+  - DOMAIN-SUFFIX,usc.edu
+  - DOMAIN-SUFFIX,mit.edu
+  - DOMAIN-SUFFIX,csueastbay.edu
+
+  # 支付
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,stripe.network
+
+  # 工具
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,bootstrapcdn.com
+  - DOMAIN-SUFFIX,wurfl.io
+  - DOMAIN-SUFFIX,polyfill.io
+
+  # Claude related
+  - DOMAIN-SUFFIX,intercom.com
+  - DOMAIN-SUFFIX,intercomassets.com
+
+  # AI 服务补充
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,huggingface.co
+
+  # Meta 补充
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,ray-ban.com
+  - DOMAIN-SUFFIX,crashlytics.com
+
+  # 其他
+  - DOMAIN-SUFFIX,open-vsx.org
+  - DOMAIN-SUFFIX,antigravity-unleash.goog

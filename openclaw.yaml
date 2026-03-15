@@ -1,0 +1,8 @@
+# OpenClaw Proxy Rules
+# Process-level fallback only. AI and Discord are handled by dedicated rulesets.
+# UPDATED: 2026-03-06
+# Clash YAML 格式
+
+payload:
+  # ===== Process Fallback =====
+  - PROCESS-NAME,openclaw-gateway
