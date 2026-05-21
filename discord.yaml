@@ -1,8 +1,20 @@
 # Discord Proxy Rules
-# UPDATED: 2026-03-11
+# UPDATED: 2026-05-21
 # Clash YAML 格式
 
 payload:
+  # Discord app processes (Surge Mac)
+  - PROCESS-NAME,Discord
+  - PROCESS-NAME,Discord Helper
+  - PROCESS-NAME,Discord Helper (GPU)
+  - PROCESS-NAME,Discord Helper (Renderer)
+  - PROCESS-NAME,cherry-voice-node
+  - PROCESS-NAME,buddy-voice-node
+
+  # Discord app, updater, and gateway domains
+  - DOMAIN,updates.discord.com
+  - DOMAIN,gateway.discord.gg
+
   # Discord Domains
   - DOMAIN-SUFFIX,airhorn.solutions
   - DOMAIN-SUFFIX,airhornbot.com
