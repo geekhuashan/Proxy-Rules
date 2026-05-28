@@ -17,6 +17,7 @@ DOMAIN,www.okx.com
 DOMAIN,api.gateio.ws
 
 # Price, sentiment, chain and crypto news APIs
+DOMAIN,api.ipify.org
 DOMAIN,api.coingecko.com
 DOMAIN,pro-api.coingecko.com
 DOMAIN,api.alternative.me
