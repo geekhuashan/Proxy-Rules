@@ -1,0 +1,39 @@
+# > Crypto trading data/API
+
+# Binance spot/futures account and market APIs
+DOMAIN,api.binance.com
+DOMAIN,api-gcp.binance.com
+DOMAIN,api1.binance.com
+DOMAIN,api2.binance.com
+DOMAIN,api3.binance.com
+DOMAIN,api4.binance.com
+DOMAIN,fapi.binance.com
+DOMAIN,dapi.binance.com
+DOMAIN,vapi.binance.com
+DOMAIN,data-api.binance.vision
+
+# Exchange APIs used by life-automation crypto jobs
+DOMAIN,www.okx.com
+DOMAIN,api.gateio.ws
+
+# Price, sentiment, chain and crypto news APIs
+DOMAIN,api.coingecko.com
+DOMAIN,pro-api.coingecko.com
+DOMAIN,api.alternative.me
+DOMAIN,fapi.coinglass.com
+DOMAIN,api.llama.fi
+DOMAIN,api.etherscan.io
+DOMAIN,blockchain.info
+DOMAIN,cryptopanic.com
+DOMAIN,newsapi.org
+
+# Market/news feeds consumed by crypto trading scripts
+DOMAIN,query1.finance.yahoo.com
+DOMAIN,feeds.finance.yahoo.com
+DOMAIN,www.coindesk.com
+DOMAIN,cointelegraph.com
+DOMAIN,blockworks.co
+DOMAIN,decrypt.co
+DOMAIN,www.eia.gov
+DOMAIN,feeds.npr.org
+DOMAIN,feeds.bbci.co.uk
