@@ -2,6 +2,13 @@
 # Clash YAML 格式
 
 payload:
+  # Polymarket (prediction market, 中国大陆被封锁)
+  - DOMAIN-SUFFIX,polymarket.com
+  - DOMAIN-SUFFIX,polymarket.us
+  # Polymarket 充值链路（跨链桥 / 银行卡买币 / 内置钱包），出口需与主站一致
+  - DOMAIN-SUFFIX,relay.link
+  - DOMAIN-SUFFIX,moonpay.com
+  - DOMAIN-SUFFIX,magic.link
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,bet365.es
   - DOMAIN-SUFFIX,bet365.it
