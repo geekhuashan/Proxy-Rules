@@ -1,0 +1,33 @@
+# Bybit EU 规则集
+# Clash YAML 格式 (对应 EU.LIST)
+
+payload:
+  # Official Bybit EU / regional Bybit production domains.
+  - DOMAIN-SUFFIX,bybit.eu
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,bybitglobal.com
+  - DOMAIN-SUFFIX,bybit-global.com
+  - DOMAIN-SUFFIX,bybit.global
+  - DOMAIN-SUFFIX,bybit.cloud
+  - DOMAIN-SUFFIX,bybit.biz
+  - DOMAIN-SUFFIX,bybit.org
+  - DOMAIN-SUFFIX,bybit.kz
+  - DOMAIN-SUFFIX,bybit.tr
+  - DOMAIN-SUFFIX,bybit.ae
+  - DOMAIN-SUFFIX,bybit.id
+  - DOMAIN-SUFFIX,bybit.nl
+  - DOMAIN-SUFFIX,bybitgeorgia.ge
+  - DOMAIN-SUFFIX,bybits.io
+  - DOMAIN-SUFFIX,bybits.org
+  - DOMAIN-SUFFIX,bybitx.global
+  - DOMAIN-SUFFIX,bybit-cn.com
+  - DOMAIN-SUFFIX,bybit-tr.com
+  - DOMAIN-SUFFIX,bybit-ge.com
+  - DOMAIN-SUFFIX,cbybit.com
+  - DOMAIN-SUFFIX,jbybit.com
+  - DOMAIN-SUFFIX,kbybit.com
+  - DOMAIN-SUFFIX,lovebybit.com
+  - DOMAIN-SUFFIX,bybitgum.com
+  - DOMAIN-SUFFIX,bybitgum.org
+  # Bybit EU frontend telemetry/risk endpoints observed from www.bybit.eu assets.
+  - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
