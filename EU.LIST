@@ -30,3 +30,17 @@ DOMAIN-SUFFIX,bybitgum.org
 
 # Bybit EU frontend telemetry/risk endpoints observed from www.bybit.eu assets.
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+
+# N26
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,number26.de
+
+# LemFi / Lemonade Finance
+DOMAIN-SUFFIX,lemfi.com
+DOMAIN-SUFFIX,lemonade.finance
+
+# SafePal
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
+DOMAIN-SUFFIX,safepalsupport.zendesk.com
