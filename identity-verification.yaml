@@ -1,0 +1,14 @@
+# Identity Verification Rules for AI Services
+# Covers SheerID and Persona verification flows.
+# UPDATED: 2026-07-11
+# Clash/Mihomo YAML format
+
+payload:
+  # SheerID
+  # Official API: https://developer.sheerid.com/api-quickstart
+  - DOMAIN-SUFFIX,sheerid.com
+  - DOMAIN-SUFFIX,sheerid.net
+
+  # Persona
+  # Official allowlist: https://docs.withpersona.com/security
+  - DOMAIN-SUFFIX,withpersona.com
