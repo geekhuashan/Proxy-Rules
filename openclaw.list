@@ -1,8 +1,0 @@
-# OpenClaw Proxy Rules
-# Process-level fallback only. AI and Discord are handled by dedicated rulesets.
-# UPDATED: 2026-03-06
-
-# ===== Process Fallback =====
-# Keep this narrow: only the OpenClaw gateway process should fall back here for
-# dynamic voice/media destinations that are not covered by static AI/Discord rules.
-PROCESS-NAME,openclaw-gateway
