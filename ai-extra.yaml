@@ -1,0 +1,24 @@
+# AI 补充规则集（走 🤖 AI 服务）
+# 收录上游 OpenAI / Claude / anthropic / Gemini 规则集未覆盖、须与 AI 服务同一出口的域名。
+# 配置中放在上游 AI 规则集和 node 进程兜底之前。
+# UPDATED: 2026-09-28
+# Clash/Mihomo YAML format
+
+payload:
+  # Claude：CodexBar OAuth 使用 platform.claude.com（blackmatrix7 Claude.list 未覆盖）
+  - DOMAIN-SUFFIX,claude.com
+
+  # Claude Desktop 预览与 MCP 内容：https://code.claude.com/docs/en/desktop#network-access-requirements
+  - DOMAIN-SUFFIX,claude.app
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+
+  # Claude Code 遥测：https://code.claude.com/docs/en/network-config
+  # Datadog 是共享服务，只匹配 Claude 官方列出的 US5 端点。
+  - DOMAIN,http-intake.logs.us5.datadoghq.com
+  - DOMAIN,browser-intake-us5-datadoghq.com
+
+  # ChatGPT 官方新增域名（Android ChatGPT SSL 异常时先确认这些在）
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com

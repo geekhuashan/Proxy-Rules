@@ -31,19 +31,11 @@ payload:
   - DOMAIN-SUFFIX,intercom.com
   - DOMAIN-SUFFIX,intercomassets.com
 
-  # Claude 补充（2026-09-23；其余核心域名已由 Claude / anthropic 规则集覆盖）
-  # 官方网络要求：https://code.claude.com/docs/en/network-config
-  # Datadog 是共享服务，只匹配 Claude 官方列出的 US5 端点。
-  - DOMAIN,http-intake.logs.us5.datadoghq.com
-  - DOMAIN,browser-intake-us5-datadoghq.com
-  # Desktop 预览与 MCP 内容：https://code.claude.com/docs/en/desktop#network-access-requirements
-  - DOMAIN-SUFFIX,claude.app
-  - DOMAIN-SUFFIX,claudemcpcontent.com
+  # Claude Desktop 预览/MCP 与 Claude Code 遥测域名在 ai-extra.yaml（走 🤖 AI 服务），不放这里。
 
   # AI 服务补充
   - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,x.ai
-  - DOMAIN-SUFFIX,grok.com
+  # xAI / Grok 在配置中单独走 🤖 Grok 组，不放这里。
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,cohere.com
   - DOMAIN-SUFFIX,cursor.sh
@@ -59,6 +51,8 @@ payload:
   - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,multimango.com
   - DOMAIN-SUFFIX,metaaivm.com
+  # Threads：上游 Threads.yaml 只收录 threads.net
+  - DOMAIN-SUFFIX,threads.com
 
   # 其他
   - DOMAIN-SUFFIX,open-vsx.org
