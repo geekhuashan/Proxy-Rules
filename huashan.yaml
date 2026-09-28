@@ -55,6 +55,10 @@ payload:
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,ray-ban.com
   - DOMAIN-SUFFIX,crashlytics.com
+  # Muse（Meta Mac App）：登录回调、模型列表，须与 meta.ai 同一出口
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,multimango.com
+  - DOMAIN-SUFFIX,metaaivm.com
 
   # 其他
   - DOMAIN-SUFFIX,open-vsx.org
