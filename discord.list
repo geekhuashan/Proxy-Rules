@@ -1,6 +1,6 @@
 # Discord Proxy Rules
 # Extracted from openclaw.list so Discord can use a dedicated Surge policy group.
-# UPDATED: 2026-05-21
+# UPDATED: 2026-09-28（移除已退役的 cherry/buddy Discord 语音进程）
 
 # ===== Discord =====
 # Source: https://github.com/blackmatrix7/ios_rule_script
@@ -11,8 +11,6 @@ PROCESS-NAME,Discord
 PROCESS-NAME,Discord Helper
 PROCESS-NAME,Discord Helper (GPU)
 PROCESS-NAME,Discord Helper (Renderer)
-PROCESS-NAME,cherry-voice-node
-PROCESS-NAME,buddy-voice-node
 
 # Discord app, updater, and gateway domains
 DOMAIN,updates.discord.com

@@ -1,5 +1,5 @@
 # Discord Proxy Rules
-# UPDATED: 2026-05-21
+# UPDATED: 2026-09-28（移除已退役的 cherry/buddy Discord 语音进程）
 # Clash YAML 格式
 
 payload:
@@ -8,8 +8,6 @@ payload:
   - PROCESS-NAME,Discord Helper
   - PROCESS-NAME,Discord Helper (GPU)
   - PROCESS-NAME,Discord Helper (Renderer)
-  - PROCESS-NAME,cherry-voice-node
-  - PROCESS-NAME,buddy-voice-node
 
   # Discord app, updater, and gateway domains
   - DOMAIN,updates.discord.com
