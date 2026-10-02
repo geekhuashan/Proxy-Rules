@@ -56,4 +56,4 @@ payload:
 
   # 其他
   - DOMAIN-SUFFIX,open-vsx.org
-  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  # Antigravity 域名统一在 ai-extra.yaml（走 🤖 AI 服务）。

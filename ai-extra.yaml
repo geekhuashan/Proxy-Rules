@@ -1,10 +1,23 @@
 # AI 补充规则集（走 🤖 AI 服务）
 # 收录上游 OpenAI / Claude / anthropic / Gemini 规则集未覆盖、须与 AI 服务同一出口的域名。
 # 配置中放在上游 AI 规则集和 node 进程兜底之前。
-# UPDATED: 2026-09-28
+# UPDATED: 2026-10-02
 # Clash/Mihomo YAML format
 
 payload:
+  # Antigravity CLI 1.2.14：运行请求及二进制 endpoint；共享 Google 域名由配置中的 agy 进程规则覆盖。
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN,preprod-daily-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN,aicode.googleapis.com
+  - DOMAIN,autopush-aicode.sandbox.googleapis.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,antigravity.google.com
+  - DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+  - DOMAIN-SUFFIX,gemini-api-docs-mcp.dev
+
   # Claude：CodexBar OAuth 使用 platform.claude.com（blackmatrix7 Claude.list 未覆盖）
   - DOMAIN-SUFFIX,claude.com
 
