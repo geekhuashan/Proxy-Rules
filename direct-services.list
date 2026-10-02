@@ -1,0 +1,15 @@
+# 国内服务与 Parsec 直连规则；从主配置归并，原业务路由不变。
+# UPDATED: 2026-10-02
+
+# Kimi / Moonshot
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,moonshot.cn
+
+# 微信公众号 API
+DOMAIN-SUFFIX,api.weixin.qq.com
+
+# Parsec
+DOMAIN-SUFFIX,parsec.app
+DOMAIN-SUFFIX,parsec.gg
+DOMAIN-SUFFIX,parsecgaming.com

@@ -1,0 +1,6 @@
+# Grok / xAI 规则；从主配置归并，原业务路由仍走 🤖 Grok。
+# 放在 huashan 规则集之前，保留独立策略组。
+# UPDATED: 2026-10-02
+
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com

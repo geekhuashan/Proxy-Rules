@@ -1,0 +1,5 @@
+# Google 补充规则；从主配置归并，原业务路由仍走 🔍 谷歌。
+# 放在 agy 进程规则之后、AI 上游规则之前，保留共享存储域名的普通 Google 路由。
+# UPDATED: 2026-10-02
+
+DOMAIN,storage.googleapis.com
