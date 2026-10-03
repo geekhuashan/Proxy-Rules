@@ -7,6 +7,10 @@
 # Apple 官方网络要求：https://support.apple.com/en-us/101555
 DOMAIN,apple-relay.apple.com
 
+# Apple 国家码查询 /pep/gcc：Siri ChatGPT 地区判断；该接口也由地图共用。
+# 仅覆盖精确域名；参考 https://github.com/NSRingo/LocationServices/blob/main/src/response.js
+DOMAIN,gspe1-ssl.ls.apple.com
+
 # Antigravity CLI 1.2.14：运行请求及二进制 endpoint；共享 Google 域名由配置中的 agy 进程规则覆盖。
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
