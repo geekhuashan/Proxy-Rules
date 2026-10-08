@@ -1,7 +1,7 @@
 # AI 补充规则集（走 🤖 AI 服务）
-# 收录上游 OpenAI / Claude / anthropic / Gemini 规则集未覆盖、须与 AI 服务同一出口的域名。
+# 收录上游 OpenAI / Claude / anthropic / Gemini 规则集未覆盖、须与 AI 服务同一出口的补充规则。
 # 配置中放在上游 AI 规则集和 node 进程兜底之前。
-# UPDATED: 2026-10-03
+# UPDATED: 2026-10-08
 # Clash/Mihomo YAML format
 
 payload:
@@ -34,9 +34,21 @@ payload:
   - DOMAIN-SUFFIX,claudemcpcontent.com
 
   # Claude Code 遥测：https://code.claude.com/docs/en/network-config
-  # Datadog 是共享服务，只匹配 Claude 官方列出的 US5 端点。
+  # 保留 Claude 官方列出的 US5 精确端点；下方另按本人要求扩展关键词覆盖。
   - DOMAIN,http-intake.logs.us5.datadoghq.com
   - DOMAIN,browser-intake-us5-datadoghq.com
+
+  # Claude 补充清单：2026-10-08 本人确认补齐所提供清单的未覆盖项。
+  # Datadog / Sift 关键词也会覆盖其他服务；本段不代表官方必需域名或账号安全保证。
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,anthropic.com.cdn.cloudflare.net
+  - DOMAIN,anthropic-com.ghost.io
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sift
+  - IP-CIDR6,2607:6bc0::/32,no-resolve
+  - IP-ASN,399358,no-resolve
 
   # ChatGPT 官方新增域名（Android ChatGPT SSL 异常时先确认这些在）
   - DOMAIN-SUFFIX,oaistatsig.com
