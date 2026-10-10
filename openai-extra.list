@@ -1,0 +1,8 @@
+# Openai 专用补充规则；固定出口分流，2026-10-10。
+# ai-extra 保留给旧客户端；本文件与同名 YAML 配对维护。
+DOMAIN,apple-relay.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com

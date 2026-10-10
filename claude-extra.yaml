@@ -1,0 +1,17 @@
+# Claude 专用补充规则；固定出口分流，2026-10-10。
+# ai-extra 保留给旧客户端；本文件与同名 YAML 配对维护。
+payload:
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.app
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+  - DOMAIN,http-intake.logs.us5.datadoghq.com
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,anthropic.com.cdn.cloudflare.net
+  - DOMAIN,anthropic-com.ghost.io
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sift
+  - IP-CIDR6,2607:6bc0::/32,no-resolve
+  - IP-ASN,399358,no-resolve
