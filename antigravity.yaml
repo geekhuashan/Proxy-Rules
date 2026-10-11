@@ -15,3 +15,7 @@ payload:
   - DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
   - DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
   - DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+
+# 官方企业模式专用端点：https://antigravity.google/docs/enterprise.md
+  - DOMAIN,businessaicode.googleapis.com
+  - DOMAIN,businessaicode.mtls.googleapis.com
