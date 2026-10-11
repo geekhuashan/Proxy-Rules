@@ -1,4 +1,4 @@
-# cohere 专用规则，走 🤖 其他 AI 固定 ISP 主备。
+# cohere 专用规则，走 🤖 其他 AI，默认普通线路，必要时手动选 ISP。
 # UPDATED: 2026-10-11
 
 DOMAIN-SUFFIX,cohere.com

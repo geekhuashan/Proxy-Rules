@@ -1,4 +1,4 @@
-# 共享客服、验证码、遥测和资源依赖；不是某一家 AI 专属。上游 OpenAI/Claude 的先命中规则保留优先级，其余走 🤖 其他 AI。
+# 共享客服、验证码、遥测和资源依赖；不是某一家 AI 专属。按用户指定统一走 🤖 Claude，放在上游 AI 规则之前。
 # UPDATED: 2026-10-11
 
 DOMAIN-SUFFIX,sentry.io
