@@ -1,4 +1,5 @@
-# Claude 专用补充规则；固定出口分流，2026-10-10。
+# Datadog / Sift / Statsig 为共享服务；相关宽规则沿用既有选择，不代表 Claude 独占。
+# Claude 补充及固定归属的共享遥测规则；固定出口分流，2026-10-10。
 # ai-extra 保留给旧客户端；本文件与同名 YAML 配对维护。
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.app

@@ -1,0 +1,7 @@
+# copilot 专用规则，走 🤖 其他 AI 固定 ISP 主备。
+# UPDATED: 2026-10-11
+
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com

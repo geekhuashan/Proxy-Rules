@@ -1,6 +1,8 @@
-# AI 补充规则集（走 🤖 AI 服务）
+# 当前主配置已改用 openai-extra / claude-extra / gemini-extra / antigravity，分别绑定对应服务组。
+# 旧规则全部保留；Meta 补充使用 meta-extra，未曾包含在本文件中。
+# AI 补充规则集（旧订阅兼容文件）
 # 收录上游 OpenAI / Claude / anthropic / Gemini 规则集未覆盖、须与 AI 服务同一出口的补充规则。
-# 配置中放在上游 AI 规则集和 node 进程兜底之前。
+# 旧客户端可继续引用本文件；新配置应使用上述分服务规则集。
 # UPDATED: 2026-10-08
 # Clash/Mihomo YAML format
 

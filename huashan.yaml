@@ -1,8 +1,7 @@
-# huashan 规则集
-# Clash YAML 格式
+# 个人学校、支付及通用工具规则；AI 和 Meta 业务已迁入各自规则集。
+# UPDATED: 2026-10-11
 
 payload:
-  # 大学
   - DOMAIN-SUFFIX,csun.edu
   - DOMAIN-SUFFIX,ucla.edu
   - DOMAIN-SUFFIX,cornell.edu
@@ -12,48 +11,7 @@ payload:
   - DOMAIN-SUFFIX,usc.edu
   - DOMAIN-SUFFIX,mit.edu
   - DOMAIN-SUFFIX,csueastbay.edu
-
-  # 支付
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,stripe.network
-
-  # 工具
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,hcaptcha.com
-  - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,bootstrapcdn.com
-  - DOMAIN-SUFFIX,wurfl.io
-  - DOMAIN-SUFFIX,polyfill.io
-
-  # Claude related
-  - DOMAIN-SUFFIX,intercom.com
-  - DOMAIN-SUFFIX,intercomassets.com
-
-  # Claude Desktop 预览/MCP 与 Claude Code 遥测域名在 ai-extra.yaml（走 🤖 AI 服务），不放这里。
-
-  # AI 服务补充
-  - DOMAIN-SUFFIX,perplexity.ai
-  # xAI / Grok 在配置中单独走 🤖 Grok 组，不放这里。
-  - DOMAIN-SUFFIX,mistral.ai
-  - DOMAIN-SUFFIX,cohere.com
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,cursor.com
-  - DOMAIN-SUFFIX,githubcopilot.com
-  - DOMAIN-SUFFIX,huggingface.co
-
-  # Meta 补充
-  - DOMAIN-SUFFIX,meta.ai
-  - DOMAIN-SUFFIX,ray-ban.com
-  - DOMAIN-SUFFIX,crashlytics.com
-  # Muse（Meta Mac App）：登录回调、模型列表，须与 meta.ai 同一出口
-  - DOMAIN-SUFFIX,muse.ai
-  - DOMAIN-SUFFIX,multimango.com
-  - DOMAIN-SUFFIX,metaaivm.com
-  # Threads：上游 Threads.yaml 只收录 threads.net
-  - DOMAIN-SUFFIX,threads.com
-
-  # 其他
   - DOMAIN-SUFFIX,open-vsx.org
-  # Antigravity 域名统一在 ai-extra.yaml（走 🤖 AI 服务）。

@@ -1,0 +1,10 @@
+# Meta 补充规则：与 Facebook / Instagram / Threads 共用同一固定 ISP 主备组。
+# 覆盖既有 Meta AI、Muse、Ray-Ban 与 Threads 补充域名；放在 huashan 兼容规则之前。
+# UPDATED: 2026-10-11
+
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,ray-ban.com
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,multimango.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,threads.com

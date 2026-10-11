@@ -1,0 +1,6 @@
+# cursor 专用规则，走 🤖 其他 AI 固定 ISP 主备。
+# UPDATED: 2026-10-11
+
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com

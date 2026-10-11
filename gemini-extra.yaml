@@ -1,17 +1,11 @@
-# Gemini 专用补充规则；固定出口分流，2026-10-10。
-# ai-extra 保留给旧客户端；本文件与同名 YAML 配对维护。
+# Gemini / AI Studio / Google OAuth / Vertex AI 补充，走 🤖 Gemini。
+# accounts/oauth 与 Vertex 为共享 Google 服务，采用固定归属，不代表 Gemini 独占。
+# UPDATED: 2026-10-11
+
 payload:
-  - DOMAIN,daily-cloudcode-pa.googleapis.com
-  - DOMAIN,cloudcode-pa.googleapis.com
-  - DOMAIN,autopush-cloudcode-pa.sandbox.googleapis.com
-  - DOMAIN,preprod-daily-cloudcode-pa.sandbox.googleapis.com
-  - DOMAIN,aicode.googleapis.com
-  - DOMAIN,autopush-aicode.sandbox.googleapis.com
-  - DOMAIN-SUFFIX,antigravity-unleash.goog
-  - DOMAIN-SUFFIX,antigravity.google
-  - DOMAIN-SUFFIX,antigravity.google.com
-  - DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
   - DOMAIN-SUFFIX,gemini-api-docs-mcp.dev
   - DOMAIN,accounts.google.com
   - DOMAIN,oauth2.googleapis.com
   - DOMAIN,aistudio.google.com
+  - DOMAIN,alkalimakersuiteapplets.pa.googleapis.com
+  - DOMAIN,aiplatform.googleapis.com
