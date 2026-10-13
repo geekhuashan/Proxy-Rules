@@ -1,6 +1,6 @@
-# Antigravity CLI / IDE / Hub 补充端点，统一走 🤖 Gemini。更新下载也计入 ISP 流量。
+# Antigravity CLI / IDE / Hub 补充端点，统一走 ✨ Gemini。更新下载也计入 ISP 流量。
 # 来源：本机已安装 agy、Antigravity.app 的实际端点字面量；进程规则另处理共享域名。
-# UPDATED: 2026-10-11
+# UPDATED: 2026-10-13
 
 DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
@@ -18,3 +18,9 @@ DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
 # 官方企业模式专用端点：https://antigravity.google/docs/enterprise.md
 DOMAIN,businessaicode.googleapis.com
 DOMAIN,businessaicode.mtls.googleapis.com
+DOMAIN,discoveryengine.googleapis.com
+DOMAIN,us-discoveryengine.googleapis.com
+DOMAIN,eu-discoveryengine.googleapis.com
+DOMAIN,discoveryengine.mtls.googleapis.com
+DOMAIN,us-discoveryengine.mtls.googleapis.com
+DOMAIN,eu-discoveryengine.mtls.googleapis.com

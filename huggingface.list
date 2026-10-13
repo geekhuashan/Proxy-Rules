@@ -1,4 +1,12 @@
-# huggingface 专用规则，走 🤖 其他 AI，默认普通线路，必要时手动选 ISP。
-# UPDATED: 2026-10-11
+# huggingface 专用规则，走 🧩 其他 AI，默认普通线路，必要时手动选 ISP。
+# UPDATED: 2026-10-13
 
 DOMAIN-SUFFIX,huggingface.co
+
+# 官方短域及 Xet 下载子域；hf.co 当前重定向到 https://huggingface.co/。
+DOMAIN-SUFFIX,hf.co
+# Spaces 独立运行域：https://huggingface.co/docs/hub/en/spaces-embed
+DOMAIN-SUFFIX,hf.space
+# 官方 SDK 的托管推理 API 及实例域。
+# https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/constants.py
+DOMAIN-SUFFIX,endpoints.huggingface.cloud

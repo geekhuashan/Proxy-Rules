@@ -1,6 +1,6 @@
-# Gemini / AI Studio / Google OAuth / Vertex AI 补充，走 🤖 Gemini。
+# Gemini / AI Studio / Google OAuth / Vertex AI 补充，走 ✨ Gemini。
 # accounts/oauth 与 Vertex 为共享 Google 服务，采用固定归属，不代表 Gemini 独占。
-# UPDATED: 2026-10-11
+# UPDATED: 2026-10-13
 
 payload:
   - DOMAIN-SUFFIX,gemini-api-docs-mcp.dev
@@ -9,3 +9,14 @@ payload:
   - DOMAIN,aistudio.google.com
   - DOMAIN,alkalimakersuiteapplets.pa.googleapis.com
   - DOMAIN,aiplatform.googleapis.com
+
+# 当前官网页面的后端、静态资源及移动深链：https://gemini.google.com/ https://aistudio.google.com/
+  - DOMAIN,geminiweb-pa.clients6.google.com
+  - DOMAIN,gemini.gstatic.com
+  - DOMAIN,gemini.app.google
+  - DOMAIN,alkalimakersuiteapplets.pa.clients6.google.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+
+# Vertex 区域端点：仅匹配 Google API 的区域命名，不扩大到全部 googleapis.com。
+# https://docs.cloud.google.com/vertex-ai/docs/predictions/get-online-predictions
+  - DOMAIN-WILDCARD,*-aiplatform.googleapis.com

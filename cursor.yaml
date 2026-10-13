@@ -1,7 +1,16 @@
-# cursor 专用规则，走 🤖 其他 AI，默认普通线路，必要时手动选 ISP。
-# UPDATED: 2026-10-11
+# cursor 专用规则，走 🧩 其他 AI，默认普通线路，必要时手动选 ISP。
+# UPDATED: 2026-10-13
 
 payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursorapi.com
+
+# 官方网络清单：下载和托管计算机；suffix 同时覆盖多层 cursorvm 子域。
+# https://cursor.com/docs/enterprise/network-configuration
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursorvm.com
+# 自托管 Cloud Agent 的专用产物桶，不扩大到整个 AWS。
+# https://cursor.com/docs/cloud-agent/self-hosted/my-machines
+  - DOMAIN,cloud-agent-artifacts.s3.us-east-1.amazonaws.com
+# Cursor 与 Grok 共享的新登录域固定归 Grok，见 grok.yaml，不重复争抢。

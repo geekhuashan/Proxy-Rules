@@ -1,7 +1,12 @@
-# Grok / xAI 规则；从主配置归并，原业务路由仍走 🤖 Grok。
+# Grok / xAI 规则；从主配置归并，原业务路由仍走 𝕏 Grok。
 # 放在 huashan 规则集之前，保留独立策略组。
-# UPDATED: 2026-10-02
+# UPDATED: 2026-10-13
 
 payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
+
+# Grok 与 Cursor 共用身份入口，固定归 Grok，不代表 Cursor 专有业务。
+# 官方登录网络清单：https://cursor.com/help/troubleshooting/sign-in-domains
+  - DOMAIN,accounts.spacex.ai
+  - DOMAIN-SUFFIX,grokusercontent.com

@@ -1,5 +1,9 @@
-# perplexity 专用规则，走 🤖 其他 AI，默认普通线路，必要时手动选 ISP。
-# UPDATED: 2026-10-11
+# perplexity 专用规则，走 🧩 其他 AI，默认普通线路，必要时手动选 ISP。
+# UPDATED: 2026-10-13
 
 payload:
   - DOMAIN-SUFFIX,perplexity.ai
+
+# 官方短域当前重定向到 https://www.perplexity.ai/；官网 HTML 引用下方专用资源桶。
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN,ppl-ai-public.s3.amazonaws.com
