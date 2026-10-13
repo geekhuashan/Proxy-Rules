@@ -1,5 +1,5 @@
 # 个人学校、支付及通用工具规则；AI 和 Meta 业务已迁入各自规则集。
-# UPDATED: 2026-10-11
+# UPDATED: 2026-10-13
 
 payload:
   - DOMAIN-SUFFIX,csun.edu
@@ -14,4 +14,6 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,stripe.network
+  # X Money 要求美国出口：x.com 的账号、接口与 Money 域名走住宅；媒体域名（twimg 等）仍按 Twitter 规则走普通线路。
+  - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,open-vsx.org
