@@ -1,0 +1,16 @@
+# Siri / Apple Intelligence 补充；按用户要求统一到 ChatGPT · Codex，2026-10-24。
+# 官方网络清单：https://support.apple.com/zh-cn/101555
+# guzzoni.apple.com 由上游 Siri 规则集提供。
+# gspe、gdmf、gateway、probe 为共用接口；本次一并分流用于排查激活状态，不代表官方要求同 IP。
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,iphone-ld.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,gdmf-ados.apple.com
+DOMAIN,gateway.icloud.com
+DOMAIN,probe.icloud.com
