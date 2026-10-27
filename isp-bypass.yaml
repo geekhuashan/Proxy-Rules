@@ -10,3 +10,7 @@ payload:
   # Meta 图片与视频 CDN
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,cdninstagram.com
+
+  # Intercom 客服组件（各网站通用）；上游 OpenAI.list 收录了它，会把任何站点的客服窗口送进住宅链。
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
