@@ -1,0 +1,11 @@
+# 住宅出口例外：与账号身份无关的静态资源、文件和媒体 CDN 走普通线路（🚀 节点选择），不消耗住宅额度。
+# 必须放在 AI 进程规则和上游 OpenAI、Facebook 规则之前。Claude 相关域名按本人决定不放在这里。
+# UPDATED: 2026-10-27
+
+# OpenAI 静态资源与文件（签名链接，不依赖出口 IP）
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Meta 图片与视频 CDN
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,cdninstagram.com
