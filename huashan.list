@@ -13,7 +13,4 @@ DOMAIN-SUFFIX,csueastbay.edu
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,stripe.network
-# X Money 保留美国住宅出口：x.com 与旧 twitter.com 账号/API 使用同一策略；twimg 媒体仍走普通线路。
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,open-vsx.org
