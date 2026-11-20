@@ -1,0 +1,20 @@
+# 皇室战争国际版（Clash Royale International）与 Supercell 账号/商店域名；与 Steam 同走 🎮 游戏平台组。
+# 上游 blackmatrix7 只有 Supercell.list（Brawl Stars 两个域名），不含 Clash Royale，故自维护本文件。
+# 域名均经 cloudflare-dns.com DoH 实测有真实 A 记录（2026-11-20）；
+# 已 NXDOMAIN 的历史域名（clashroyaleapp.com、account.supercell.com、esports.supercell.com 等）不收录，避免死规则。
+# UPDATED: 2026-11-20
+
+DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,supercell.com
+DOMAIN-SUFFIX,supercellstore.com
+DOMAIN-SUFFIX,supercellcreators.com
+IP-CIDR,52.24.207.133/32,no-resolve
+IP-CIDR,44.227.72.10/32,no-resolve
+IP-CIDR,54.239.163.41/32,no-resolve
+IP-CIDR,54.239.163.91/32,no-resolve
+IP-CIDR,54.239.163.111/32,no-resolve
+IP-CIDR,54.239.163.47/32,no-resolve
+IP-CIDR,54.230.175.113/32,no-resolve
+IP-CIDR,54.230.175.74/32,no-resolve
+IP-CIDR,54.230.175.64/32,no-resolve
+IP-CIDR,54.230.175.4/32,no-resolve
