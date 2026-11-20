@@ -1,0 +1,9 @@
+# Steam 商店/登录/下载域名；与验证码域必须同一出口 IP，否则购买登录时报 CAPTCHA 无效。
+# UPDATED: 2026-11-20
+
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net

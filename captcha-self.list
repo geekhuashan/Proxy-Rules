@@ -1,0 +1,6 @@
+# 通用验证码域名（reCAPTCHA / hCaptcha）；与触发验证的服务同出口，否则验证被判无效。
+# UPDATED: 2026-11-20
+
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,recaptcha-cn.net
+DOMAIN-SUFFIX,hcaptcha.com

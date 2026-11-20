@@ -1,9 +1,8 @@
-# 共享客服、验证码、遥测和资源依赖；不是某一家 AI 专属。按用户指定统一走 🤖 Claude，放在上游 AI 规则之前。
-# UPDATED: 2026-10-11
+# 共享客服、遥测和资源依赖；不是某一家 AI 专属。按用户指定统一走 🤖 Claude，放在上游 AI 规则之前。
+# 验证码域（hcaptcha/recaptcha）已于 2026-11-20 拆到 captcha-self 规则集，交给独立出口组。
+# UPDATED: 2026-11-20
 
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,wurfl.io
