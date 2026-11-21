@@ -1,0 +1,13 @@
+# Antigravity 手机 remote 的信令与 WebRTC 中继，走普通线路（🚀 节点选择）。
+# 原因：这些端点不需要住宅身份；TURN 媒体是 UDP，住宅中转只转 TCP；
+# 落入通用 Google 规则时会挤在单个手选订阅节点上，2026-11-20 出现 connection lost。
+# 来源：本机 Surge 实际连接记录（jetski-webchannel、signaler-pa、74.125.247.128:3478）；
+# TURN 网段取自 Google Meet 官方公布的媒体地址。
+# UPDATED: 2026-11-21
+
+payload:
+  - DOMAIN,jetski-webchannel.googleapis.com
+  - DOMAIN,signaler-pa.googleapis.com
+  - IP-CIDR,74.125.247.128/32,no-resolve
+  - IP-CIDR,74.125.250.0/24,no-resolve
+  - IP-CIDR,142.250.82.0/24,no-resolve
